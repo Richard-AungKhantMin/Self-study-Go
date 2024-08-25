@@ -1,9 +1,9 @@
 package main
 
-import (
-	"selfstudy/variables_basic/B1" // Correct import path
-)
+import "selfstudy/variables_basic_and_package/B1"
 
 func main() {
-	B1.V1() // Call the V1 function from the B1 package
+
+	B1.V1()
+
 }
