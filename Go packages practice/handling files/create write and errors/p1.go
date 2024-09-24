@@ -20,7 +20,7 @@ func main() {
 
 	each, err := os.ReadFile("./new_file.txt")
 	isErrNill(err)
-	fmt.Println(each)
+	fmt.Println(string(each))
 }
 
 func isErrNill(err error) {
